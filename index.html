@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<title>Afro Addy and the Seven Dwarves</title>
+	<!--Hearts below, made by dazieh, tutorial at easy-html-tutorials-->
+<script>if(typeof jQuery=='undefined'){document.write('<'+'script');document.write(' language="javascript"');document.write(' type="text/javascript"');document.write(' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">');document.write('</'+'script'+'>')}</script><script>if(!image_urls){var image_urls=Array()}if(!flash_urls){var flash_urls=Array()}image_urls['rain1']="http://www.picgifs.com/mini-graphics/mini-graphics/hearts/mini-graphics-hearts-655853.gif";image_urls['rain2']="http://www.picgifs.com/mini-graphics/mini-graphics/hearts/mini-graphics-hearts-655853.gif";image_urls['rain3']="http://www.picgifs.com/mini-graphics/mini-graphics/hearts/mini-graphics-hearts-655853.gif";image_urls['rain4']="http://www.picgifs.com/mini-graphics/mini-graphics/hearts/mini-graphics-hearts-655853.gif";$(document).ready(function(){var c=$(window).width();var d=$(window).height();var e=function(a,b){return Math.round(a+(Math.random()*(b-a)))};var f=function(a){setTimeout(function(){a.css({left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100)}).animate({top:(d-10)+'px'},e(7500,8000),function(){$(this).fadeOut('slow',function(){f(a)})})},e(1,8000))};$('<div></div>').attr('id','rainDiv')
+.css({position:'fixed',width:(c-20)+'px',height:'10px',left:'0px',top:'-5px',display:'block'}).appendTo('body');for(var i=1;i<=20;i++){var g=$('<img/>').attr('src',image_urls['rain'+e(1,4)])
+.css({position:'absolute',left:e(0,c)+'px',top:'-30px',display:'block',opacity:'0.'+e(10,100),'margin-left':0}).addClass('rainDrop').appendTo('#rainDiv');f(g);g=null};var h=0;var j=0;$(window).resize(function(){c=$(window).width();d=$(window).height()})});</script>
+<script>if(typeof jQuery=='undefined'){document.write('<'+'script');document.write(' language="javascript"');document.write(' type="text/javascript"');document.write(' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">');document.write('</'+'script'+'>')}</script>
+<!--Hearts above, made by dazieh, tutorial at easy-html-tutorials-->
+	</head>
+	<style>
+	
+	@font-face {
+    font-family: myFirstFont;
+    src: url(minecraftia-regular.ttf);
+	}
+
+	div {
+    font-family: myFirstFont;
+	}
+
+	#titulo {
+		text-align: center;
+		color: #4b6bb4;
+	}
+	#meimg {
+	width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+	}
+	img {
+    	display: inline;
+    	margin: 0 auto;
+    	height: 100%;
+    	width: auto;
+	}
+
+	#contents1 {
+		column-count: 2;
+		column-width: 100px;
+		text-align: center;
+		color: #c6f4b8;	
+	}
+	#icon {
+		text-align: right;
+	}
+	
+	#aboutme {
+		column-count:1;
+		column-span: all;
+		text-align: center;
+		color: #4b6bb4;
+	}
+	#contents2 {
+	text-align: center;
+	column-count: 2;
+	column-width: 100px;
+	}
+	#mid-text {
+	text-align: center;
+	}
+	body {
+		background-color: #ffffff;
+		background-image: url("snowy-pines.jpg");
+		background-repeat: repeat-x;
+		height: 100%;
+	}
+	
+	</style>
+	<body>
+	<br></br>
+	<br></br>
+	<br></br>
+	<div id="titulo">
+	<img src="i-look-sick.png" alt="A Picture of Me!" id="meimg">
+	<h1>Addy Brien's GWC Portfolio</h1>
+	
+	<p>Some of the things I made in Girls Who Code this summer! </p>
+	</div>
+	
+	<div id="contents1">
+	<br></br>
+	<h2>Paddle Ball: Princess Peach Edition</h2>
+	
+	<iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/116563339/?autostart=false" frameborder="0" allowfullscreen></iframe>
+	<p>A simple single-player game of pong I created</p>
+	<br></br>
+	<h2>Poke the Squirrel</h2>
+	
+	<iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/116564351/?autostart=false" frameborder="0" allowfullscreen></iframe>
+	<p>A fun twist i put on the game 'Pig' for one of our assignments</p>
+	</div>
+	<div id="mid-text">
+	<p>
+	Along with creating things this summer I also got to do a ton of cool things!
+	</p>
+	</div>
+	<div id="contents2">
+	<img src="fruit-tart.jpg" style="width:500px">
+	<p>We get great food!!</p>
+	<br></br>
+	<img src="i-tweet-sf.jpg" style="width:500px">
+	<p>Cool Photo Ops!</p>
+	<br></br>
+	<img src="hashtag-now.jpg" style="width:500px">
+	<p>Nice diagrams!!</p>
+	<br></br>
+	<br></br>
+	<img src="twitter-fieldtrip.jpg" style="width:500px">
+	<p>We hosted a fieldtrip!!</p>
+	<br></br>
+	<img src="at-dolby.jpg" style="width:500px">
+	<p>And went on a fieldtrip!!</p>
+	<br></br>
+	<video width="600" height="600" controls>
+  	<source src="twitter-piano.mp4" type="video/mp4">
+  	</video>
+  	<p>And more fun stuff!!!</p>
+	</div>
+	
+	
+	
+	</body>
+</html>
